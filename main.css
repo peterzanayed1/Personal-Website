@@ -1,0 +1,120 @@
+/* Global styles */
+body {
+	font-family: 'Helvetica Neue', sans-serif;
+	color: #333;
+	background-color: #fff;
+}
+
+a {
+	color: #333;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #0066cc;
+	text-decoration: underline;
+}
+
+header {
+	background-color: #0066cc;
+	color: #fff;
+	padding: 20px;
+}
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	margin: 0;
+}
+
+nav a {
+	display: block;
+	padding: 10px;
+}
+
+nav a:hover {
+	background-color: #fff;
+	color: #333;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+section {
+	margin-bottom: 30px;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+}
+
+form label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+form input[type="text"], form input[type="email"], form textarea {
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 16px;
+	line-height: 1.5;
+	box-sizing: border-box;
+}
+
+form button[type="submit"] {
+	background-color: #0066cc;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+form button[type="submit"]:hover {
+	background-color: #0052a3;
+}
+
+footer {
+	background-color: #eee;
+	color: #333;
+	padding: 20px;
+	text-align: center;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+	header {
+		padding: 10px;
+	}
+
+	nav {
+		flex-direction: column;
+	}
+
+	nav a {
+		padding: 5px;
+	}
+
+	main {
+		padding: 10px;
+	}
+}
